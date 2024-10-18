@@ -20,6 +20,8 @@
 
     font-family: "ubuntu";
 
+    user-select: none;
+
 }
 
 html::-webkit-scrollbar {
