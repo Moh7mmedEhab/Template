@@ -1,0 +1,173 @@
+@font-face {
+
+    font-family: "ubuntu";
+
+    src: url("../Assets/Fonts/Ubuntu-Bold.ttf") format('truetype');
+
+    font-weight: bold;
+
+    font-style: normal;
+
+}
+
+* {
+
+    padding: 0px;
+
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    font-family: "ubuntu";
+
+}
+
+html::-webkit-scrollbar {
+
+    width: 12px;
+
+}
+
+html::-webkit-scrollbar-track {
+
+    background-color: #e6e6e6;
+
+}
+
+html::-webkit-scrollbar-thumb {
+
+    background-color: #0077ff99;
+
+}
+
+html::-webkit-scrollbar-thumb:hover {
+
+    background-color: #0077ff;
+
+}
+
+body {
+
+    width: 100vw;
+
+    min-height: 100vh;
+
+    overflow-x: hidden;
+
+}
+
+header {
+
+    position: relative;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+nav {
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px;
+
+    background-color: #00000099;
+
+}
+
+nav .nav-title {
+
+    margin: 0px 20px;
+
+    text-align: center;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+nav ul {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin: 0px 20px;
+
+    list-style-type: none;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 5px;
+
+    border-bottom: 2px solid transparent;
+
+    transition-duration: 0.25s;
+
+}
+
+nav ul li a:hover {
+
+    color: red;
+
+    border-bottom-color: red;
+
+}
+
+header .header-title {
+
+    text-align: center;
+
+    margin: 10px;
+
+    padding: 10px;
+
+}
+
+header .header-title * {
+
+    margin: 10px;
+
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+}
